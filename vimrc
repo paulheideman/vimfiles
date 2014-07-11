@@ -213,6 +213,7 @@ Bundle 'rking/ag.vim'
 Bundle 'oblitum/rainbow'
 Bundle 'jnwhiteh/vim-golang'
 Plugin 'bling/vim-airline'
+Bundle 'scrooloose/syntastic'
 
 set vb
 
