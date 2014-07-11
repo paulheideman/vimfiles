@@ -214,6 +214,7 @@ Bundle 'oblitum/rainbow'
 Bundle 'jnwhiteh/vim-golang'
 Plugin 'bling/vim-airline'
 Bundle 'scrooloose/syntastic'
+Bundle 'mhinz/vim-signify'
 
 set vb
 
@@ -224,3 +225,5 @@ let g:rainbow_active = 1
 " airline
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+" needed for syntastic
+set shell=/bin/bash
