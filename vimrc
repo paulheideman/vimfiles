@@ -216,6 +216,7 @@ Plugin 'bling/vim-airline'
 Bundle 'scrooloose/syntastic'
 Bundle 'mhinz/vim-signify'
 Bundle 'majutsushi/tagbar'
+Bundle 'kien/ctrlp.vim'
 
 set vb
 
@@ -230,3 +231,6 @@ let g:airline#extensions#tabline#enabled = 1
 set shell=/bin/bash
 " tag bar
 nmap <F8> :TagbarToggle<CR>
+" ctrl p
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
