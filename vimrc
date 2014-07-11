@@ -215,6 +215,7 @@ Bundle 'jnwhiteh/vim-golang'
 Plugin 'bling/vim-airline'
 Bundle 'scrooloose/syntastic'
 Bundle 'mhinz/vim-signify'
+Bundle 'majutsushi/tagbar'
 
 set vb
 
@@ -227,3 +228,5 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 " needed for syntastic
 set shell=/bin/bash
+" tag bar
+nmap <F8> :TagbarToggle<CR>
