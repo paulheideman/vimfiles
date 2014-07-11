@@ -189,7 +189,7 @@ autocmd FileType scala source $HOME/.vim/scalacommenter.vim
 " GUI Settings {
 if has("gui_running")
     " Basics {
-        set guifont=Droid\ Sans\ Mono\ 10
+        set guifont=Menlo\ 11
         set guioptions=c
         set guioptions=-T
         set guioptions=-M
@@ -211,6 +211,7 @@ Bundle 'gmarik/vundle'
 Bundle 'rking/ag.vim'
 Bundle 'oblitum/rainbow'
 Bundle 'jnwhiteh/vim-golang'
+Plugin 'bling/vim-airline'
 
 set vb
 
