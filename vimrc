@@ -189,13 +189,14 @@ autocmd FileType scala source $HOME/.vim/scalacommenter.vim
 " GUI Settings {
 if has("gui_running")
     " Basics {
-        set guifont=Menlo\ 11
+        set gfn=Inconsolata\ for\ Powerline:h12
         set guioptions=c
         set guioptions=-T
         set guioptions=-M
         set guitablabel=%t
         set mousehide " hide the mouse cursor when typing
         set autochdir " always switch to the current file directory
+        set anti smooth
     " }
 endif
 " }
@@ -219,3 +220,6 @@ filetype plugin indent on     " required!
 
 let g:agprg="/usr/local/bin/ag --column"
 let g:rainbow_active = 1
+" airline
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
