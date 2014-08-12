@@ -211,12 +211,12 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'rking/ag.vim'
 Bundle 'oblitum/rainbow'
-Bundle 'jnwhiteh/vim-golang'
 Plugin 'bling/vim-airline'
 Bundle 'scrooloose/syntastic'
 Bundle 'mhinz/vim-signify'
 Bundle 'majutsushi/tagbar'
 Bundle 'kien/ctrlp.vim'
+Plugin 'fatih/vim-go'
 
 set vb
 
