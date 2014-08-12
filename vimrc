@@ -217,6 +217,7 @@ Bundle 'mhinz/vim-signify'
 Bundle 'majutsushi/tagbar'
 Bundle 'kien/ctrlp.vim'
 Plugin 'fatih/vim-go'
+Bundle 'kchmck/vim-coffee-script'
 
 set vb
 
