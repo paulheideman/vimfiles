@@ -1,7 +1,7 @@
-    colorscheme Tomorrow-Night-Eighties
+    colorscheme solarized
     set nocompatible " explicitly get out of vi-compatible mode
     set noexrc " don't use local version of .(g)vimrc, .exrc
-    set background=dark " we plan to use a dark background
+    set background=light " we plan to use a dark background
     set cpoptions=aABceFsmq
     "             |||||||||
     "             ||||||||+-- When joining lines, leave the cursor
