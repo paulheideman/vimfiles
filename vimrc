@@ -218,6 +218,7 @@ Bundle 'majutsushi/tagbar'
 Bundle 'kien/ctrlp.vim'
 Plugin 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
+Plugin 'wting/rust.vim'
 
 set vb
 
