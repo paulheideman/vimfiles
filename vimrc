@@ -219,6 +219,7 @@ Bundle 'kien/ctrlp.vim'
 Plugin 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
 Plugin 'JuliaLang/julia-vim'
+Plugin 'wting/rust.vim'
 
 set vb
 
