@@ -189,7 +189,7 @@ autocmd FileType scala source $HOME/.vim/scalacommenter.vim
 " GUI Settings {
 if has("gui_running")
     " Basics {
-        set gfn=Inconsolata\ for\ Powerline:h12
+        set gfn=Inconsolata\ for\ Powerline\ Medium\ 11
         set guioptions=c
         set guioptions=-T
         set guioptions=-M
@@ -218,6 +218,7 @@ Bundle 'majutsushi/tagbar'
 Bundle 'kien/ctrlp.vim'
 Plugin 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
+Plugin 'JuliaLang/julia-vim'
 
 set vb
 
