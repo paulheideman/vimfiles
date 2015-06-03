@@ -24,7 +24,7 @@
     filetype plugin indent on " load filetype plugins/indent settings
     set backspace=indent,eol,start " make backspace a more flexible
     set nobackup " make NO backup files
-    set clipboard+=unnamed " share windows clipboard
+    set clipboard+=unnamedplus " share windows clipboard
     set directory=~/.gibberish " directory to place swap files in
     set fileformats=unix,dos,mac " support all three, in this order
     set iskeyword+=_,$,@,%,# " none of these are word dividers
@@ -219,6 +219,7 @@ Bundle 'majutsushi/tagbar'
 Bundle 'kien/ctrlp.vim'
 Plugin 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
+Plugin 'JuliaLang/julia-vim'
 Plugin 'wting/rust.vim'
 
 set vb
