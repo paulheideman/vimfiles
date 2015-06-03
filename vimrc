@@ -227,6 +227,7 @@ Plugin 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
 Plugin 'JuliaLang/julia-vim'
 Plugin 'wting/rust.vim'
+Bundle 'scrooloose/nerdtree'
 
 set vb
 
@@ -248,3 +249,6 @@ let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<c-t>'],
     \ 'AcceptSelection("t")': ['<cr>', '<2-LeftMouse>'],
     \ }
+" Nerdtree stuff
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
