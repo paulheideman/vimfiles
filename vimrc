@@ -189,7 +189,7 @@ autocmd FileType scala source $HOME/.vim/scalacommenter.vim
 " GUI Settings {
 if has("gui_running")
     " Basics {
-        set gfn=Inconsolata\ for\ Powerline:h12
+        set gfn=Inconsolata\ for\ Powerline\ Medium\ 11
         set guioptions=c
         set guioptions=-T
         set guioptions=-M
@@ -197,6 +197,7 @@ if has("gui_running")
         set mousehide " hide the mouse cursor when typing
         set autochdir " always switch to the current file directory
         set anti smooth
+        set clipboard=unnamedplus
     " }
 endif
 " }
