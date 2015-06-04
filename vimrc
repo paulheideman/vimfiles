@@ -189,12 +189,10 @@ autocmd FileType scala source $HOME/.vim/scalacommenter.vim
 " GUI Settings {
 if has("gui_running")
     " Basics {
-        let s:uname = system("echo -n \"$(uname)\"")
-        if !v:shell_error && s:uname == "Darwin"
+        if has('mac')
             set gfn=Inconsolata\ for\ Powerline:h11
-        endif
-        if !v:shell_error && s:uname == "Linux"
-            set gfn=Inconsolata\ for\ Powerline\ Medium \11
+        else
+            set gfn=Inconsolata\ for\ Powerline\ Medium\ 11
         endif
         set guioptions=c
         set guioptions=-T
@@ -228,6 +226,7 @@ Bundle 'kchmck/vim-coffee-script'
 Plugin 'JuliaLang/julia-vim'
 Plugin 'wting/rust.vim'
 Bundle 'scrooloose/nerdtree'
+Bundle 'petRUShka/vim-opencl'
 
 set vb
 
