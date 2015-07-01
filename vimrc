@@ -1,4 +1,4 @@
-    colorscheme solarized
+    colorscheme zenburn
     set nocompatible " explicitly get out of vi-compatible mode
     set noexrc " don't use local version of .(g)vimrc, .exrc
     set background=light " we plan to use a dark background
@@ -227,6 +227,9 @@ Plugin 'JuliaLang/julia-vim'
 Plugin 'wting/rust.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'petRUShka/vim-opencl'
+Bundle 'chriskempson/vim-tomorrow-theme'
+Bundle 'jnurmine/Zenburn'
+Bundle 'vim-scripts/blackdust.vim'
 
 set vb
 
