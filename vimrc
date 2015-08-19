@@ -254,3 +254,5 @@ let g:ctrlp_prompt_mappings = {
 " Nerdtree stuff
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+" Ignore files
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class,*/target/*
