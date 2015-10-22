@@ -257,3 +257,5 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 colorscheme zenburn
+" Ignore files
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class,*/target/*
