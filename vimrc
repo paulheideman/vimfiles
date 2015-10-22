@@ -1,7 +1,7 @@
-    colorscheme solarized
+    set t_Co=256
     set nocompatible " explicitly get out of vi-compatible mode
     set noexrc " don't use local version of .(g)vimrc, .exrc
-    set background=light " we plan to use a dark background
+    set background=dark " we plan to use a dark background
     set cpoptions=aABceFsmq
     "             |||||||||
     "             ||||||||+-- When joining lines, leave the cursor
@@ -230,6 +230,7 @@ Bundle 'petRUShka/vim-opencl'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'jnurmine/Zenburn'
 Bundle 'vim-scripts/blackdust.vim'
+Plugin 'nazo/pt.vim'
 
 set vb
 
@@ -254,3 +255,5 @@ let g:ctrlp_prompt_mappings = {
 " Nerdtree stuff
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+colorscheme zenburn
