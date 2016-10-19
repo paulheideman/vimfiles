@@ -258,4 +258,4 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 colorscheme zenburn
 " Ignore files
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class,*/target/*
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class,*/target/*,*/node_modules/*
