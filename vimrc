@@ -231,6 +231,7 @@ Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'jnurmine/Zenburn'
 Bundle 'vim-scripts/blackdust.vim'
 Plugin 'nazo/pt.vim'
+Plugin 'vim-airline/vim-airline-themes'
 
 set vb
 
@@ -256,6 +257,15 @@ let g:ctrlp_prompt_mappings = {
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+if (has("termguicolors"))
+  set termguicolors
+endif
 colorscheme zenburn
+let g:airline_theme='zenburn'
 " Ignore files
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class,*/target/*,*/node_modules/*
+
+" Javascript Standard Formatter
+let g:syntastic_javascript_checkers = ['standard']
+autocmd bufwritepost *.js silent !standard-format -w %
+set autoread
