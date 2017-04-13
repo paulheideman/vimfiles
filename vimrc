@@ -232,6 +232,7 @@ Bundle 'jnurmine/Zenburn'
 Bundle 'vim-scripts/blackdust.vim'
 Plugin 'nazo/pt.vim'
 Plugin 'vim-airline/vim-airline-themes'
+Bundle 'Valloric/YouCompleteMe'
 
 set vb
 
