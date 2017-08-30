@@ -233,6 +233,7 @@ Bundle 'vim-scripts/blackdust.vim'
 Plugin 'nazo/pt.vim'
 Plugin 'vim-airline/vim-airline-themes'
 Bundle 'Valloric/YouCompleteMe'
+Plugin 'Vimjas/vim-python-pep8-indent'
 
 set vb
 
@@ -270,3 +271,7 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class,*/target/*,*/node_modules/*
 let g:syntastic_javascript_checkers = ['standard']
 autocmd bufwritepost *.js silent !standard-format -w %
 set autoread
+
+" Different colour after column 80
+set textwidth=80
+set colorcolumn=+1
